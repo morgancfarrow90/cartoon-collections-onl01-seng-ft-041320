@@ -15,8 +15,9 @@ planteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
   array.collect do |planteer|
     planteer.capitalize + "!"
-  
+  end
 end
+summon_captain_planet(planteer_calls)
 
 def long_planeteer_calls# code an argument here
   # Your code here
