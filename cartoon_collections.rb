@@ -21,7 +21,7 @@ end
 summon_captain_planet(planteer_calls)
 
 def long_planeteer_calls(array)
-  
+  array.any? {|planteer_calls| planteer_calls.length > 4
   
 end
 
