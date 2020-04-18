@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  ["Doc", "Dopey", "Bashful", "Grumpy"].each_with_index
+  array = ["Doc", "Dopey", "Bashful", "Grumpy"].each_with_index
   {|name, index| puts "#{index.next}. #{name}"}
   
 end
