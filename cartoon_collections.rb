@@ -25,8 +25,9 @@ def long_planeteer_calls(array)
   
 end
 
+foods = ["flour", "onion", "tomato", "potato", "chedder", "chocolate"]
 def find_the_cheese(array)
-  array.include?()
+  array.include?("chedder") 
 
 
   # the array below is here to help
