@@ -29,7 +29,8 @@ foods = ["flour", "onion", "tomato", "potato", "chedder", "chocolate"]
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.include?(|type|)
-  return array[] if 
+  if true 
+  return type 
 end
 
 find_the_cheese(foods)
