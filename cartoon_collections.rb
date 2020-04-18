@@ -6,6 +6,7 @@
   puts "#{i + 1}. #{array[i]}"
   i += 1 
 end
+end
 
 def summon_captain_planet# code an argument here
   # Your code here
