@@ -27,7 +27,8 @@ end
 
 foods = ["flour", "onion", "tomato", "potato", "chedder", "chocolate"]
 def find_the_cheese(array)
-  array.include?("chedder") 
+  array.include?("chedder")
+  return array[] if 
 end
 
 find_the_cheese(foods)
